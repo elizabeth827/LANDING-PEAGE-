@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elizabeth Professional Makeup Artist - Belleza de Impacto</title>
+    <!-- Tailwind CSS para diseño responsivo y moderno -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts: Playfair Display para títulos glamorosos y Plus Jakarta Sans para lectura fluida -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        serif: ['Playfair Display', 'serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            gold: '#D4AF37',
+                            pink: '#F5ECE9',
+                            pinkdark: '#C58F82',
+                            dark: '#1F1A17',
+                            golddark: '#AA840A'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        .luxury-shadow {
+            box-shadow: 0 20px 40px -15px rgba(197, 143, 130, 0.25);
+        }
+        .text-glow {
+            text-shadow: 0 2px 10px rgba(197, 143, 130, 0.2);
+        }
+    </style>
+</head>
+<body class="font-sans bg-[#FAF8F6] text-brand-dark antialiased">
+
+    <!-- BARRA DE NAVEGACIÓN (Anatomía #5: Primer CTA al Inicio) -->
+    <header class="sticky top-0 z-50 bg-[#FAF8F6]/90 backdrop-blur-md border-b border-brand-pink">
+        <div class="max-w-5xl mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="flex flex-col">
+                <span class="font-serif text-lg md:text-xl font-bold tracking-widest text-brand-dark">ELIZABETH</span>
+                <span class="text-[9px] tracking-[0.25em] uppercase text-brand-pinkdark -mt-1 font-semibold">Professional Makeup</span>
+            </div>
+            <!-- Botón de Acción Rápida -->
+            <a href="https://wa.me/59163485158?text=Hola%20Elizabeth,%20quiero%20agendar%20mi%20cita%20de%20maquillaje%20profesional." 
+               target="_blank"
+               class="bg-brand-dark hover:bg-brand-pinkdark text-white hover:text-brand-dark px-4 py-2.5 rounded-full text-xs font-bold tracking-wider uppercase transition-all duration-300 shadow-sm flex items-center gap-2">
+               <svg class="w-4 h-4 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.513 2.262 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.665.988 3.311 1.485 5.359 1.486 5.535 0 10.04-4.5 10.04-10.034C22.049 5.077 17.545.57 12.01.57c-5.534 0-10.04 4.5-10.04 10.039-.001 2.053.504 3.691 1.489 5.342l-.994 3.63 3.734-.977zm11.581-6.845c-.324-.162-1.916-.945-2.21-1.054-.294-.108-.508-.162-.721.162-.213.324-.827 1.054-1.014 1.27-.187.216-.374.243-.697.081-.324-.162-1.368-.505-2.61-1.613-.961-.856-1.61-1.914-1.799-2.238-.188-.324-.02-.501.141-.661.145-.143.324-.378.486-.568.162-.189.216-.324.324-.54.108-.216.054-.405-.027-.568-.081-.162-.72-1.73-.986-2.379-.258-.633-.52-.547-.721-.558-.186-.01-.4-.01-.614-.01-.214 0-.561.08-.854.405-.294.324-1.122 1.099-1.122 2.681 0 1.583 1.149 3.111 1.31 3.328.161.216 2.261 3.45 5.481 4.839.765.33 1.363.527 1.829.675.769.244 1.47.21 2.022.128.614-.093 1.917-.783 2.185-1.539.268-.756.268-1.405.188-1.539-.08-.135-.295-.216-.619-.379z"/></svg>
+               ¡Quiero Reservar!
+            </a>
+        </div>
+    </header>
+
+    <!-- 1. TÍTULO PERSUASIVO E IMPACTANTE (H1) (Anatomía #1) -->
+    <section class="relative px-4 pt-12 pb-6 max-w-4xl mx-auto text-center">
+        <span class="inline-block bg-brand-pink text-brand-pinkdark font-bold text-xs uppercase tracking-[0.25em] px-4 py-1.5 rounded-full mb-4">
+            Elizabeth Professional Makeup Artist
+        </span>
+        <h1 class="font-serif text-3xl md:text-5xl lg:text-6xl text-brand-dark leading-[1.15] font-extrabold tracking-tight text-glow">
+            Resalta tu belleza con un <br class="hidden md:block">
+            <span class="text-brand-pinkdark italic">maquillaje profesional</span> de impacto.
+        </h1>
+        <p class="mt-6 text-sm md:text-lg text-stone-600 max-w-2xl mx-auto leading-relaxed">
+            ¿Tienes un evento especial y quieres lucir radiante? Transformamos tu belleza natural en una verdadera obra de arte para que te sientas segura, empoderada e inolvidable.
+        </p>
+    </section>
+
+    <!-- 2. VIDEO DE MARKETING ESTRATÉGICO (Anatomía #2) -->
+    <section class="px-4 max-w-3xl mx-auto mb-16">
+        <div class="relative rounded-3xl overflow-hidden bg-stone-950 border-4 border-white luxury-shadow aspect-video flex items-center justify-center group cursor-pointer" onclick="startVideoPlay()">
+            <!-- Imagen de Portada del Video -->
+            <img id="video-image-cover" src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=1200&auto=format&fit=crop" 
+                 alt="Maquillaje profesional Elizabeth" 
+                 class="absolute inset-0 w-full h-full object-cover opacity-85 group-hover:scale-105 transition-all duration-700">
+            
+            <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-black/30"></div>
+
+            <!-- Botón de Reproducción Interactivo -->
+            <div id="video-play-btn" class="relative z-10 bg-white/95 backdrop-blur-sm p-5 rounded-full text-brand-dark group-hover:scale-110 transition-all duration-300 shadow-xl flex items-center justify-center">
+                <svg class="w-8 h-8 fill-brand-pinkdark ml-1" viewBox="0 0 24 24">
+                    <path d="M8 5v14l11-7z"/>
+                </svg>
+            </div>
+
+            <!-- Información superpuesta del video -->
+            <div class="absolute bottom-6 left-6 right-6 text-left text-white z-10 transition-opacity duration-300" id="video-text-info">
+                <p class="text-xs font-bold tracking-widest uppercase text-brand-pink">Ver Glam Masterclass</p>
+                <h3 class="font-serif text-lg md:text-xl font-bold mt-1">Nuestra Filosofía de Belleza Real y Alta Duración</h3>
+            </div>
+
+            <!-- Reproductor de Video Simulado Interactiva en Acción -->
+            <div id="video-live-player" class="absolute inset-0 hidden bg-brand-dark flex flex-col items-center justify-center p-6 text-center text-white">
+                <span class="text-brand-pinkdark text-xs uppercase tracking-widest font-bold mb-2">Simulación de Video Activo</span>
+                <h4 class="font-serif text-xl md:text-2xl font-semibold mb-4">Piel de Porcelana en Fotografía y Video</h4>
+                <div class="flex items-center gap-4 text-xs md:text-sm text-stone-300">
+                    <span>✨ Difuminado Tridimensional</span>
+                    <span>🌿 Skin Prep Premium</span>
+                    <span>💧 Sellado Impermeable</span>
+                </div>
+                <!-- Botón de cerrar -->
+                <button onclick="event.stopPropagation(); resetVideoPlay();" class="mt-6 text-xs underline text-stone-400 hover:text-white uppercase tracking-wider">Cerrar Video de Presentación</button>
+            </div>
+        </div>
+        <p class="text-center text-[11px] text-stone-500 mt-3 italic">
+            ▲ Presiona el video para ver los acabados reales y la técnica de porcelana bajo luz de estudio.
+        </p>
+    </section>
+
+    <!-- 3. BENEFICIOS Y VALOR AGREGADO (Anatomía #3) -->
+    <section class="bg-[#F5ECE9]/50 py-16 px-4 border-y border-brand-pink">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-12">
+                <span class="text-brand-pinkdark uppercase text-xs font-bold tracking-widest">Lo que podemos hacer por ti</span>
+                <h2 class="font-serif text-3xl md:text-4xl font-bold mt-2">Nuestros Servicios Exclusivos</h2>
+                <p class="text-stone-500 text-sm max-w-md mx-auto mt-2">Técnicas avanzadas y productos premium para lucir una piel impecable.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Servicio 1: Maquillaje Glam 3D -->
+                <div class="bg-white p-6 rounded-2xl border border-stone-200/50 shadow-sm flex flex-col justify-between hover:border-brand-pinkdark/50 transition-colors duration-300">
+                    <div>
+                        <div class="w-10 h-10 rounded-xl bg-brand-pink flex items-center justify-center text-brand-pinkdark text-lg mb-4">
+                            ✨
+                        </div>
+                        <h3 class="font-bold text-lg text-brand-dark">Maquillaje Glam 3D</h3>
+                        <p class="text-stone-600 text-sm mt-2 leading-relaxed">
+                            Técnica avanzada para esculpir tus facciones, lograr una mirada profunda, con dimensiones perfectas y un acabado ideal para alfombra roja.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Servicio 2: Explosión Full Color -->
+                <div class="bg-white p-6 rounded-2xl border border-stone-200/50 shadow-sm flex flex-col justify-between hover:border-brand-pinkdark/50 transition-colors duration-300">
+                    <div>
+                        <div class="w-10 h-10 rounded-xl bg-brand-pink flex items-center justify-center text-brand-pinkdark text-lg mb-4">
+                            🌈
+                        </div>
+                        <h3 class="font-bold text-lg text-brand-dark">Explosión Full Color</h3>
+                        <p class="text-stone-600 text-sm mt-2 leading-relaxed">
+                            Diseños vibrantes, creativos y audaces con pigmentación extrema para las amantes del color y del arte que desean destacar en todo momento.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Servicio 3: Maquillaje Social & Sencillo -->
+                <div class="bg-white p-6 rounded-2xl border border-stone-200/50 shadow-sm flex flex-col justify-between hover:border-brand-pinkdark/50 transition-colors duration-300">
+                    <div>
+                        <div class="w-10 h-10 rounded-xl bg-brand-pink flex items-center justify-center text-brand-pinkdark text-lg mb-4">
+                            💄
+                        </div>
+                        <h3 class="font-bold text-lg text-brand-dark">Social & Sencillo</h3>
+                        <p class="text-stone-600 text-sm mt-2 leading-relaxed">
+                            El equilibrio perfecto para lucir elegante, sofisticada, fresca y completamente natural en cualquier ocasión o evento diurno.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Servicio 4: Acabado Profesional de Larga Duración -->
+                <div class="bg-white p-6 rounded-2xl border border-stone-200/50 shadow-sm flex flex-col justify-between hover:border-brand-pinkdark/50 transition-colors duration-300 md:col-span-1">
+                    <div>
+                        <div class="w-10 h-10 rounded-xl bg-brand-pink flex items-center justify-center text-brand-pinkdark text-lg mb-4">
+                            💎
+                        </div>
+                        <h3 class="font-bold text-lg text-brand-dark">Fijación de Larga Duración</h3>
+                        <p class="text-stone-600 text-sm mt-2 leading-relaxed">
+                            Utilizamos productos internacionales de alta gama para que tu look resista el sudor, la humedad y permanezca impecable toda la noche.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Servicio 5: Preparación de Piel Especializada -->
+                <div class="bg-white p-6 rounded-2xl border border-stone-200/50 shadow-sm flex flex-col justify-between hover:border-brand-pinkdark/50 transition-colors duration-300 md:col-span-2">
+                    <div>
+                        <div class="w-10 h-10 rounded-xl bg-brand-pink flex items-center justify-center text-brand-pinkdark text-lg mb-4">
+                            📸
+                        </div>
+                        <h3 class="font-bold text-lg text-brand-dark">Preparación de Piel Especializada</h3>
+                        <p class="text-stone-600 text-sm mt-2 leading-relaxed">
+                            Logramos un efecto único de piel de porcelana, aplicando técnicas de hidratación y corrección de textura idóneas para cámaras de fotografía, video digital y luz natural.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. PRUEBA SOCIAL CON TESTIMONIOS (Anatomía #4) -->
+    <section class="py-16 px-4 max-w-5xl mx-auto">
+        <div class="text-center mb-12">
+            <span class="text-brand-pinkdark uppercase text-xs font-bold tracking-widest">Garantía de Satisfacción</span>
+            <h2 class="font-serif text-3xl md:text-4xl font-bold mt-2">Clientas que brillaron con luz propia</h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <!-- Testimonio 1 -->
+            <div class="bg-white p-8 rounded-3xl border border-stone-200 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+                <div>
+                    <div class="flex text-amber-400 gap-1 mb-4">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                    </div>
+                    <p class="text-stone-700 text-sm leading-relaxed italic">
+                        "Fui a una gala benéfica y me hice el Maquillaje Glam 3D. Toda la noche me preguntaron quién me había maquillado. La mirada de impacto se mantuvo perfecta hasta que llegué a casa."
+                    </p>
+                </div>
+                <div class="flex items-center gap-3 mt-6 pt-4 border-t border-stone-100">
+                    <div class="w-10 h-10 rounded-full bg-brand-pink flex items-center justify-center font-bold text-brand-pinkdark">MC</div>
+                    <div>
+                        <h4 class="text-xs font-bold text-brand-dark">Michelle C.</h4>
+                        <p class="text-[10px] text-stone-500">Invitada Especial</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonio 2 -->
+            <div class="bg-white p-8 rounded-3xl border border-stone-200 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+                <div>
+                    <div class="flex text-amber-400 gap-1 mb-4">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                    </div>
+                    <p class="text-stone-700 text-sm leading-relaxed italic">
+                        "Me asustaba que mi piel grasa arruinara el maquillaje de mi boda, pero la preparación especializada de Elizabeth hizo milagros. ¡Piel de porcelana garantizada!"
+                    </p>
+                </div>
+                <div class="flex items-center gap-3 mt-6 pt-4 border-t border-stone-100">
+                    <div class="w-10 h-10 rounded-full bg-brand-pink flex items-center justify-center font-bold text-brand-pinkdark">AR</div>
+                    <div>
+                        <h4 class="text-xs font-bold text-brand-dark">Andrea R.</h4>
+                        <p class="text-[10px] text-stone-500">Novia Radiante</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Testimonio 3 -->
+            <div class="bg-white p-8 rounded-3xl border border-stone-200 shadow-sm flex flex-col justify-between hover:shadow-md transition-shadow">
+                <div>
+                    <div class="flex text-amber-400 gap-1 mb-4">
+                        <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+                    </div>
+                    <p class="text-stone-700 text-sm leading-relaxed italic">
+                        "El maquillaje Social es una maravilla. Me vi fresca, elegante y no sentía pesadez en el rostro. Elizabeth realmente sabe cómo tratar las texturas de la piel delicada."
+                    </p>
+                </div>
+                <div class="flex items-center gap-3 mt-6 pt-4 border-t border-stone-100">
+                    <div class="w-10 h-10 rounded-full bg-brand-pink flex items-center justify-center font-bold text-brand-pinkdark">KF</div>
+                    <div>
+                        <h4 class="text-xs font-bold text-brand-dark">Karina F.</h4>
+                        <p class="text-[10px] text-stone-500">Evento de Día</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. DOBLE LLAMADO A LA ACCIÓN (CTA) (Anatomía #5: Final) -->
+    <section class="bg-brand-pink border-t border-brand-pink py-16 px-4 text-center">
+        <div class="max-w-2xl mx-auto">
+            
+            <div class="inline-flex items-center gap-2 bg-brand-dark text-white text-[11px] font-bold uppercase tracking-wider px-4 py-1.5 rounded-full mb-6">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                ¡Reserva hoy y asegura tu espacio!
+            </div>
+
+            <p class="text-brand-pinkdark text-xs font-bold uppercase tracking-[0.2em] mb-2">Elizabeth Professional Makeup Artist</p>
+            <h2 class="font-serif text-3xl md:text-5xl font-extrabold text-brand-dark leading-tight">
+                ¡No dejes tu imagen en manos de cualquiera, confía en una experta!
+            </h2>
+            <p class="mt-4 text-stone-600 text-sm md:text-base leading-relaxed">
+                Agenda tu cita de maquillaje hoy y asegúrate de lucir sensacional en ese día tan importante. Tu cita incluye asesoría personalizada de visajismo sin costo adicional.
+            </p>
+
+            <div class="mt-8">
+                <!-- Segundo CTA Mayor que apunta al WhatsApp Directo -->
+                <a href="https://wa.me/59163485158?text=Hola%20Elizabeth,%20vengo%20de%20la%20p%C3%A1gina%20web%20y%20quiero%20reservar%20mi%20cita%20de%20maquillaje." 
+                   target="_blank"
+                   class="inline-flex items-center justify-center bg-brand-dark hover:bg-brand-pinkdark text-white hover:text-brand-dark px-8 py-4 rounded-full font-bold uppercase tracking-widest text-sm transition-all duration-300 transform hover:scale-[1.02] shadow-lg gap-3">
+                   <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397.01 12.008.01c3.202.001 6.212 1.246 8.477 3.513 2.262 2.268 3.507 5.28 3.505 8.484-.004 6.657-5.34 11.997-11.953 11.997-2.005-.001-3.973-.502-5.724-1.455L0 24zm6.59-4.846c1.665.988 3.311 1.485 5.359 1.486 5.535 0 10.04-4.5 10.04-10.034C22.049 5.077 17.545.57 12.01.57c-5.534 0-10.04 4.5-10.04 10.039-.001 2.053.504 3.691 1.489 5.342l-.994 3.63 3.734-.977zm11.581-6.845c-.324-.162-1.916-.945-2.21-1.054-.294-.108-.508-.162-.721.162-.213.324-.827 1.054-1.014 1.27-.187.216-.374.243-.697.081-.324-.162-1.368-.505-2.61-1.613-.961-.856-1.61-1.914-1.799-2.238-.188-.324-.02-.501.141-.661.145-.143.324-.378.486-.568.162-.189.216-.324.324-.54.108-.216.054-.405-.027-.568-.081-.162-.72-1.73-.986-2.379-.258-.633-.52-.547-.721-.558-.186-.01-.4-.01-.614-.01-.214 0-.561.08-.854.405-.294.324-1.122 1.099-1.122 2.681 0 1.583 1.149 3.111 1.31 3.328.161.216 2.261 3.45 5.481 4.839.765.33 1.363.527 1.829.675.769.244 1.47.21 2.022.128.614-.093 1.917-.783 2.185-1.539.268-.756.268-1.405.188-1.539-.08-.135-.295-.216-.619-.379z"/></svg>
+                   Reserva al: 63485158
+                </a>
+                <p class="text-xs text-stone-500 mt-4 font-semibold tracking-widest uppercase">
+                    ✨ ¡Sábados y Domingos con cupos limitados! ✨
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PIE DE PÁGINA (Conclusión de Red de Hashtags) -->
+    <footer class="bg-brand-dark text-stone-400 py-12 px-4 border-t border-stone-800 text-center md:text-left">
+        <div class="max-w-4xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
+            <div class="flex flex-col items-center md:items-start">
+                <span class="font-serif text-white text-xl font-bold tracking-widest">ELIZABETH</span>
+                <p class="text-xs mt-1">#ElizabethProfessionalMakeup - Transformación de impacto.</p>
+            </div>
+            <div class="flex flex-wrap justify-center gap-4 text-xs font-semibold text-stone-500">
+                <span>#glam3d</span>
+                <span>#socialmakeup</span>
+                <span>#maquillajeprofesional</span>
+                <span>#fullcolor</span>
+            </div>
+        </div>
+    </footer>
+
+    <!-- SCRIPT DE INTERACCIÓN DE VIDEO -->
+    <script>
+        function startVideoPlay() {
+            document.getElementById('video-live-player').classList.remove('hidden');
+            document.getElementById('video-play-btn').classList.add('hidden');
+            document.getElementById('video-image-cover').classList.add('opacity-10');
+            document.getElementById('video-text-info').classList.add('opacity-0');
+        }
+
+        function resetVideoPlay() {
+            document.getElementById('video-live-player').classList.add('hidden');
+            document.getElementById('video-play-btn').classList.remove('hidden');
+            document.getElementById('video-image-cover').classList.remove('opacity-10');
+            document.getElementById('video-text-info').classList.remove('opacity-0');
+        }
+    </script>
+</body>
+</html>
